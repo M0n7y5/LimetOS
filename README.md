@@ -1,2 +1,2 @@
-# FreeRTOS-libopencm3
-PlatformIO repo for a libopencm3-compatible packaging of popular FreeRTOS library
+# LimetOS
+FreeRTOS PlatformIO Library for STM32F1 MCUs compatible with LibOpenCM3 

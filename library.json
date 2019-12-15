@@ -21,7 +21,7 @@
         ],
         "libLDFMode": "deep+"
     },
-    "description": "TODO",
+    "description": "FreeRTOS PlatformIO Library for STM32F1 MCUs compatible with LibOpenCM3 ",
     "examples": [],
     "frameworks": "libOpenCM3",
     "keywords": [
