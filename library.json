@@ -33,5 +33,5 @@
         "stm32f1"
     ],
     "name": "FreeRTOS-libopencm3",
-    "platforms": "ST STM32"
+    "platforms": "ststm32"
 }
