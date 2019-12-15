@@ -1,0 +1,37 @@
+{
+    "authors": {
+        "name": "M0N7Y5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/M0n7y5/LimetOS.git"
+    },
+    "version": "10.2.1",
+    "export": {
+        "include": "*"
+    },
+    "build": {
+        "srcDir": "FreeRTOS/Source",
+        "flags": [
+            "-IFreeRTOS/",
+            "-IFreeRTOS/Source/portable",
+            "-IFreeRTOS/Source/portable/GCC/ARM_CM3",
+            "-IFreeRTOS/Source/portable/MemMang",
+            "-IFreeRTOS/Source/include"
+        ],
+        "libLDFMode": "deep+"
+    },
+    "description": "TODO",
+    "examples": [],
+    "frameworks": "libOpenCM3",
+    "keywords": [
+        "FreeRTOS",
+        "rtos",
+        "libOpenCM3",
+        "bluepill",
+        "stm32",
+        "stm32f1"
+    ],
+    "name": "FreeRTOS-libopencm3",
+    "platforms": "ST STM32"
+}
