@@ -32,6 +32,6 @@
         "stm32",
         "stm32f1"
     ],
-    "name": "FreeRTOS-libopencm3",
+    "name": "LimetOS",
     "platforms": "ststm32"
 }
