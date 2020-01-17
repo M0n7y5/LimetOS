@@ -11,15 +11,14 @@
         "include": "*"
     },
     "build": {
-        "srcDir": "FreeRTOS/Source",
+        "srcDir": "Source",
         "flags": [
-            "-IFreeRTOS/",
-            "-IFreeRTOS/Source/portable",
-            "-IFreeRTOS/Source/portable/GCC/ARM_CM3",
-            "-IFreeRTOS/Source/portable/MemMang",
-            "-IFreeRTOS/Source/include"
-        ],
-        "libLDFMode": "deep+"
+            "-ISource/include/",
+            "-ISource",
+            "-ISource/portable/",
+            "-ISource/portable/GCC/ARM_CM3",
+            "-ISource/portable/MemMang"
+        ]
     },
     "description": "FreeRTOS PlatformIO Library for STM32F1 MCUs compatible with LibOpenCM3 ",
     "examples": [],
